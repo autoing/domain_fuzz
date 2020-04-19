@@ -21,3 +21,9 @@ python3 domain_fuzz.py -u http://$$.mi.com
 python3 domain_fuzz.py -u http://$$.mi.com -r 1-5 -t 50 -o
 ```
 ![](https://raw.githubusercontent.com/autoing/domain_fuzz/master/head.png)
+
+# 注意
+不要生成超过6位数的字典，因为有308915776种组合模式，这时候需要量子宽带和天河一号才能跑。
+
+# 字典长度说明
+
